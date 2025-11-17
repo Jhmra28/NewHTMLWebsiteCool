@@ -1,3 +1,55 @@
 body {
-    
+     cursor: url('icons8-hand-cursor-24.png'), auto;
+     background-image: url("background.jpeg");
+    background-position: center;
+    background-repeat: repeat;
+
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+
+    text-align: center;
 }
+
+h1,h2,h3,th,td,table{
+    background-color: aliceblue;
+    
+    line-height: 150%;
+    color: rgb(233, 105, 247);
+}
+
+table{
+  margin-left: 30%;
+}
+
+p{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 255, 255, 0.306);
+    border: 1px solid #0ce71e;
+    color: rgb(145, 0, 0);
+}
+
+.container {
+  display: flex; /* Enables Flexbox layout */
+  justify-content: space-between; 
+  gap: 20px; 
+}
+
+.column {
+  flex: 1; /* Allows columns to grow and shrink equally */
+  padding: 15px;
+  border: 3px solid #000000;
+  background-color: azure;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+  line-height: 150%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse; /* Optional: Makes borders single line */
+  }
+th, td {
+  padding: 20px; 
+  text-align: left; 
+
+  }
